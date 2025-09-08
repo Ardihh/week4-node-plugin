@@ -33,4 +33,5 @@ touch index.js
 node index.js "Nama - NIM"
 ```
 hasil output:
-<img width="602" height="558" alt="image" src="https://github.com/user-attachments/assets/962679a5-8256-49fc-b939-eb2eadc4e2f0" />
+<img width="658" height="558" alt="image" src="https://github.com/user-attachments/assets/f1b1b3ab-c74e-47e6-ba27-aee1bc1adcb6" />
+
