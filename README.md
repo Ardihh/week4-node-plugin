@@ -1,37 +1,36 @@
-# week4-node-plugin
+# Week 4 - Node.js Plugin
 
-## 1. Persiapan Lingkungan
+## ⚙️ Persiapan Lingkungan
 - Node.js terpasang (versi 24.7.0)
-- Package manager: **npm** (bisa juga pakai pnpm/yarn)
+- Package manager: **npm** (atau pnpm/yarn)
 
-Cek instalasi Node.js:
+Cek instalasi Node.js dan npm:
 ```bash
 node -v
-npm -vA
- - buah folder projek
- mkdir week4-node-plugin
- cd week4-node-plugin
-
- - inisialisasi project Node.js:
- npm init -y
-
- - Instalasi package
- npm install chalk cowsay figlet darjs gradient-string
-
- package yang terpasang:
- - chalk = styling teks
- - cowsay = ASCII art karakter
- - figlet = tulisan ASCII
- - dayjs = menampilkan tanggal & waktu
- - gradient-string = gradasi teks
-
- - buat file index.js
- touch index.js
+npm -v
 ```
-
-## Jalankan program
-jalankan perintah:
+Buat folder projek
 ```bash
-node index.js "Nama - NIM" 
+mkdir week4-node-plugin
+cd week4-node-plugin
+```
+Inisialisasi projek
+```bash
+npm init -y
 ```
 
+Install package yang dibutuhkan
+```bash
+npm install chalk cowsay figlet dayjs gradient-string
+```
+
+buat file index.js
+```bash
+touch index.js
+```
+## Jalankan program
+```bash
+node index.js "Nama - NIM"
+```
+hasil output:
+<img width="602" height="558" alt="image" src="https://github.com/user-attachments/assets/962679a5-8256-49fc-b939-eb2eadc4e2f0" />
